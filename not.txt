@@ -1,0 +1,52 @@
+
+
+
+
+
+import React, { useState } from 'react';
+
+const Box = () => {
+    const chessbox = Array.from({ length: 64 }, (_, index) => index);
+
+    // State to track colors of boxes
+    const [boxColors, setBoxColors] = useState(
+        Array(64).fill().map((_, index) =>
+            (Math.floor(index / 8) + (index % 8)) % 2 === 0 ? 'bg-black' : 'bg-white'
+        )
+    );
+
+    // State to track the previously clicked box index
+    const [previousBox, setPreviousBox] = useState(null);
+
+    const handleBoxClick = (index) => {
+        setBoxColors((prevColors) =>
+            prevColors.map((color, i) => {
+                if (i === index) {
+                    // Toggle the clicked box
+                    return color === 'bg-black' ? 'bg-white' : 'bg-black';
+                }
+                if (i === previousBox) {
+                    // Reset the previously clicked box to its original color
+                    return (Math.floor(i / 8) + (i % 8)) % 2 === 0 ? 'bg-black' : 'bg-white';
+                }
+                return color;
+            })
+        );
+        setPreviousBox(index); // Update the previous box index
+    };
+
+    return (
+        <section className="grid grid-cols-8 gap-0">
+            {chessbox.map((box) => (
+                <div
+                    key={box}
+                    className={`w-[100px] h-[100px] ${boxColors[box]} border border-black`}
+                    onClick={() => handleBoxClick(box)}
+                ></div>
+            ))}
+        </section>
+    );
+};
+
+export default Box;
+ 
