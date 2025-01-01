@@ -19,10 +19,11 @@ const Hero = () => {
           on both front-end aesthetics and back-end functionality.
         </p>
 
-        <button className=" text-white  font-rubik flex items-center gap-[10px] bg-[#6022EA] rounded-[50px] py-[16px] px-[32px]">
+        <button className=" text-white  font-rubik flex items-center gap-[10px] bg-[#6022EA] hover:shadow-btn-shadow duration-300 ease-linear rounded-[50px] py-[16px] px-[32px]">
           Download CV
           <Downloadicon />
         </button>
+        
 
 
 

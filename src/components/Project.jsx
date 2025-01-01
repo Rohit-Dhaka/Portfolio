@@ -39,11 +39,14 @@ import Sclair from "../assets/images/Sclair.png"
 import Marc from "../assets/images/Marc.png"
 
 
+import Grid from '../assets/images/Grid.png'
+
+
 import { Autoplay } from "swiper/modules";
 
 const Project = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-[#0B0B0B]">
       <div className="max-w-[1140px] mx-auto px-[16px] pb-[100px] relative">
         <div className="flex flex-col items-center pb-[40px]">
           <h2 className="text-white font-rubik text-[42px] font-semibold leading-[52px]   text-center pt-[100px] ">
@@ -55,7 +58,9 @@ const Project = () => {
             handle both frontend and backend challenges.
           </h6>
         </div>
-        <div className="bg-[#121212] rounded-[12px] py-[60px] px-[30px] ">
+        <div className="bg-[#121212] rounded-[12px] py-[60px] px-[30px]  relative overflow-hidden">
+          <div className="bg-[#6022EA] w-[200px] h-[200px] rounded-[50%] blur-[150px] absolute right-[-5%]"></div>
+        <img src={Grid} alt="" className=" absolute top-0" />
           <div className="flex flex-wrap flex-row mx-[-12px]">
             <div className="sm:w-6/12 w-full px-[12px] flex items-center justify-center">
               <Screen />
@@ -73,7 +78,8 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#121212] rounded-[12px] py-[60px] px-[30px] mt-[40px] ">
+        <div className="bg-[#FFFFFF02] rounded-[12px] py-[60px] px-[30px] mt-[40px] relative overflow-hidden  ">
+          <img src={Grid} alt="" className=" absolute top-0" />
           <div className="flex flex-wrap flex-row mx-[-12px] max-sm:flex-wrap-reverse">
             <div className="sm:w-6/12 w-full pt-[12px] sm:pt-0 px-[12px] flex items-center justify-center flex-col">
               <div className="max-w-[400px]">
@@ -92,7 +98,8 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="bg-[#121212] rounded-[12px] py-[60px] px-[30px] mt-[40px] ">
+        <div className="bg-[#121212] rounded-[12px] py-[60px] px-[30px] mt-[40px] relative overflow-hidden ">
+        <img src={Grid} alt="" className=" absolute top-0" />
           <div className="flex flex-wrap flex-row mx-[-12px]">
             <div className="sm:w-6/12 w-full px-[12px] flex items-center justify-center">
               <Screen />

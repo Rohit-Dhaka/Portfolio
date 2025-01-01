@@ -12,7 +12,7 @@ import {
 
 const Myexpertise = () => {
   return (
-    <section className="bg-black relative">
+    <section className="bg-[#0B0B0B] relative">
       <div className="max-w-[1140px] mx-auto px-[16px]">
         <div className="flex flex-col items-center">
           <h2 className="font-rubik text-white text-[42px] font-semibold leading-[52px]  text-center pt-[100px] ">
@@ -126,7 +126,7 @@ const Myexpertise = () => {
             <div className="bg-gradient-to-b from-[#FFFFFF] to-[#6022EA] h-full rounded-[16px] p-[2px] group relative overflow-hidden">
               <div className="card  bg-black duration-300 ease-linear group-hover:bg-transparent rounded-[14px] h-full  flex items-center justify-center flex-col p-[20px]">
                 <div className=" absolute bottom-0 right-0 hidden group-hover:block">
-                <Showcase />
+                <Twocircles/>
                 </div>
                 <div className="w-[125px] h-[125px] rounded-[50%] bg-gradient-to-b from-[#FFFFFF] to-[#6022EA] group-hover:from-[#FFFFFF] group-hover:to-[#FFFFFF] duration-300 flex items-center justify-center ease-out">
                 <Ux />

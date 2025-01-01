@@ -14,7 +14,7 @@ import ReactIcon from "../assets/images/react.png";
 
 const Myskills = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-[#0B0B0B]">
       <div className="max-w-[1140px] mx-auto px-[16px]">
         <div className="flex flex-col items-center">
           <h2 className="font-rubik text-white text-[42px] font-semibold leading-[52px]   text-center pt-[100px] ">
