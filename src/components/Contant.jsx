@@ -40,15 +40,15 @@ const Contant = () => {
     <section className="bg-[#0B0B0B] relative">
       <div className="max-w-[1140px] mx-auto px-[16px]">
         <div className="flex flex-col items-center">
-          <h2 className="text-white font-rubik text-[42px] font-semibold leading-[52px] text-center pt-[100px]">
+          <h2 className="text-white font-rubik text-[42px] font-semibold leading-[52px] text-center sm:pt-[100px] pt-[80px]">
             Contant<span className="text-[#6022EA]">Us</span>
           </h2>
           <h6 className="font-rubik pt-[16px] text-white text-[18px]">
             Any question or remarks? Just write us a message!
           </h6>
         </div>
-        <div className="flex flex-wrap-reverse flex-row mx-[-12px] pt-[32px] items-center pb-[100px]">
-          <div className="sm:w-6/12 w-full px-[12px]">
+        <div className="flex flex-wrap-reverse flex-row mx-[-12px] pt-[32px] items-center sm:pb-[100px] pb-[80px]">
+          <div className="sm:w-6/12 w-full px-[12px] sm:pt-0 pt-[24px]">
             <form ref={form} onSubmit={sendEmail}>
               <label className="text-white font-rubik block">First Name</label>
               <input
@@ -80,7 +80,7 @@ const Contant = () => {
               />
             </form>
           </div>
-          <div className="sm:w-6/12 px-[12px]">
+          <div className="sm:w-6/12 px-[12px] ">
             <h5 className="font-rubik text-white font-medium pb-[16px] max-w-[390px] capitalize text-[24px]">
               If you have any dream project in your mind, let’s make it happen
               together.

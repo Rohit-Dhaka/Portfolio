@@ -3,15 +3,15 @@ import { Emailicon, Github, Instagram, Linkedin, Location, Phoneicon, Twitter } 
 
 const Footer = () => {
     return (
-        <footer className='bg-black'>
+        <footer className='bg-black overflow-hidden'>
             <div className="max-w-[1140px] px-[12px] mx-auto">
                 <div className="flex flex-row flex-wrap mx-[-12px] py-[80px] ">
                     <div className="lg:w-5/12 md:w-4/12  w-full px-[12px]">
                         <h2 className='  text-[#6022EA] font-rubik text-[24px] font-bold'>Portfolio</h2>
 
                     </div>
-                    <div className="lg:w-2/12 md:w-2/12 sm:w-3/12 w-4/12 px-[12px]">
-                        <ul className='flex flex-col gap-[18px]'>
+                    <div className="lg:w-2/12 md:w-2/12 sm:w-3/12 w-full px-[12px] pt-[24px] md:pt-0">
+                        <ul className='flex flex-col sm:gap-[18px] gap-[12px]'>
                             <li className='text-white   text-[18px]  font-rubik'>Explore</li>
                             <li>
                                 <a href="" className=" text-white hover:text-[#6022EA] duration-300 relative after:absolute after:bottom-0 after:left-1/2 after:translate-x-[-50%] after:h-[2px] after:w-0 after:duration-300 after:bg-[#6022EA] after:hover:left-0 after:hover:translate-x-0 after:hover:w-full font-rubik">Home</a>
@@ -36,8 +36,8 @@ const Footer = () => {
                         </ul>
 
                     </div>
-                    <div className="lg:w-3/12 md:w-4/12 sm:w-5/12 w-8/12 px-[12px]">
-                        <ul className='flex flex-col gap-[18px]'>
+                    <div className="lg:w-3/12 md:w-4/12 sm:w-5/12 w-full px-[12px] pt-[24px] md:pt-0">
+                        <ul className='flex flex-col sm:gap-[18px] gap-[12px]'>
                             <li className='text-white   text-[18px]  font-rubik'>Contact Us</li>
                             <li className='flex gap-4 '>
                                 <Location />
@@ -57,11 +57,11 @@ const Footer = () => {
                         </ul>
 
                     </div>
-                    <div className="lg:w-2/12 md:w-2/12 sm:w-3/12 px-[12px]">
+                    <div className="lg:w-2/12 md:w-2/12 sm:w-3/12 w-full px-[12px] pt-[24px] md:pt-0">
 
 
 
-                    <ul className='flex flex-col gap-[18px]'>
+                    <ul className='flex flex-col sm:gap-[18px] gap-[14px]'>
                             <li className='text-white   text-[18px] font-rubik '>Follow Us</li>
                             {/* <li className='flex gap-4  '>
                                 <Twitter/>
