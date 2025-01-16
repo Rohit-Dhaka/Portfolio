@@ -7,13 +7,12 @@ module.exports = {
         5: "-5deg",
       },
       fontFamily: {
+        poppins: ["Poppins, serif"],
         rubik: ["Rubik, serif"],
+        inter: ["Inter, serif"],
       },
-      boxShadow: {
-        "card-hover": ["0px 0px 20px 8px #6022EA"],
-        "box-shadow": ["0px 0px 20px 4px #FFFFFF40"],
-        "btn-shadow": ["0px 4px 64px 0px #6022EA"],
-      },
+   
+     
     },
   },
   plugins: [],

@@ -44,14 +44,14 @@ import { Autoplay } from "swiper/modules";
 const Project = () => {
   return (
     <section className="bg-[#0B0B0B] relative">
-      <div className="w-[300px] h-[300px]  blur-[170px] bg-gradient-to-r from-[#FA00FF] to-[#6022EA] absolute bottom-[20%] z-10"></div>      
-      <div className="w-[300px] h-[300px]  blur-[170px] bg-gradient-to-r from-[#FA00FF] to-[#6022EA] absolute right-0 top-[25%] z-10"></div>      
+      
+    
       <div className="max-w-[1140px] mx-auto px-[16px] sm:pb-[100px] pb-[80px] relative">
         <div className="flex flex-col items-center pb-[40px]">
-          <h2 className="text-white font-rubik lg:text-[42px] text-[36px] font-semibold leading-[52px]   text-center sm:pt-[100px] pt-[80px] ">
-            My <span className="text-[#6022EA]">Project</span>
+          <h2 className="text-white font-poppins  lg:text-[42px] text-[36px] font-semibold leading-[52px]   text-center sm:pt-[100px] pt-[80px] ">
+            My <span className="text-[#6022EA] ">Project</span>
           </h2>
-          <h6 className="text-white pt-[16px] font-rubik  text-center max-w-[900px]">
+          <h6 className="text-white pt-[16px]   text-center max-w-[900px]">
             A variety of projects, ranging from dynamic web applications to
             complex e-commerce platforms. Each project highlights my ability to
             handle both frontend and backend challenges.
@@ -70,10 +70,10 @@ const Project = () => {
             </div>
             <div className="sm:w-6/12 w-full px-[12px] pt-[12px] sm:pt-0 flex items-center justify-center flex-col">
               <div className="max-w-[400px]">
-                <h3 className="text-white font-rubik text-[32px] font-semibold max-sm:text-center">
+                <h3 className="text-white  text-[32px] font-semibold max-sm:text-center">
                   Project Title
                 </h3>
-                <h6 className="text-white text-[16px] font-rubik  font-normal pt-[16px] max-sm:text-center">
+                <h6 className="text-white text-[16px]   font-normal pt-[16px] max-sm:text-center">
                   Click the three dots icon (...) next to the Stroke settings to
                   expand the Stroke Options.
                 </h6>
@@ -91,10 +91,10 @@ const Project = () => {
           <div className="flex flex-wrap flex-row mx-[-12px] max-sm:flex-wrap-reverse">
             <div className="sm:w-6/12 w-full pt-[12px] sm:pt-0 px-[12px] flex items-center justify-center flex-col z-10 relative ">
               <div className="max-w-[400px]">
-                <h3 className="text-white font-rubik text-[32px] font-semibold max-sm:text-center ">
+                <h3 className="text-white  text-[32px] font-semibold max-sm:text-center ">
                   Project Title
                 </h3>
-                <h6 className="text-white font-rubik text-[16px] font-normal pt-[16px] max-sm:text-center">
+                <h6 className="text-white  text-[16px] font-normal pt-[16px] max-sm:text-center">
                   Click the three dots icon (...) next to the Stroke settings to
                   expand the Stroke Options.
                 </h6>
@@ -119,10 +119,10 @@ const Project = () => {
             </div>
             <div className="sm:w-6/12 w-full pt-[12px] sm:pt-0 px-[12px] flex items-center justify-center flex-col">
               <div className="max-w-[400px]">
-                <h3 className="text-white font-rubik text-[32px] font-semibold max-sm:text-center">
+                <h3 className="text-white  text-[32px] font-semibold max-sm:text-center">
                   Project Title
                 </h3>
-                <h6 className="text-white  font-rubik text-[16px] font-normal pt-[16px] max-sm:text-center">
+                <h6 className="text-white   text-[16px] font-normal pt-[16px] max-sm:text-center">
                   Click the three dots icon (...) next to the Stroke settings to
                   expand the Stroke Options.
                 </h6>
@@ -132,15 +132,15 @@ const Project = () => {
         </div>
 
         <div className="flex flex-col items-center py-[60px] ">
-          <h2 className="text-white lg:text-[42px] text-[36px] font-rubik font-semibold leading-[52px]   text-center sm:pt-[100px] pt-[80px]">
+          <h2 className="text-white lg:text-[42px] text-[36px] font-poppins  font-semibold leading-[52px]   text-center sm:pt-[100px] pt-[80px]">
             UI Design Gallery
           </h2>
-          <h6 className="text-white  font-rubik text-center max-w-[900px] pt-2">
+          <h6 className="text-white font-poppins   text-center max-w-[900px] pt-2">
             Take a look at some of my best UI designs:
           </h6>
         </div>
 
-        <div className="bg-[#1F1E1F]   rounded-[16px]  shadow-box-shadow  z-20 relative">
+        <div className="bg-[#1F1E1F]   rounded-[16px]    z-20 relative">
           <Swiper
             modules={[Autoplay]}
             spaceBetween={20}
