@@ -1,97 +1,83 @@
 import React from "react";
-import Html from "../assets/images/html.webp";
-import Css from "../assets/images/css.webp";
-import Js from "../assets/images/js.webp";
-import Nextjs from "../assets/images/nextjs.webp";
-import Mongodb from "../assets/images/mongodb.webp";
-import Express from "../assets/images/express.webp";
-import Nodejs from "../assets/images/nodejs.webp";
-import Git from "../assets/images/git.webp";
-import Github from "../assets/images/github.webp";
-import Bootstrap from "../assets/images/bootstrap.webp";
-import Tailwindcss from "../assets/images/tailwindcss.webp";
-import ReactIcon from "../assets/images/react.webp";
+
+
+import Html from '../assets/svg/Html.svg'
+import Css from '../assets/svg/Css.svg'
+import js from '../assets/svg/js.svg'
+import Bootstrap from '../assets/svg/bootstrap.svg'
+import Tailwindcssicon from '../assets/svg/Tailwindcss.svg'
+import Nodejs  from '../assets/svg/Node.svg'
+import ReactIcon  from '../assets/svg/React.svg'
+import MongoDb from '../assets/svg/Mongodb.svg'
+import Express  from '../assets/svg/Express.svg'
+import Git  from '../assets/svg/Git.svg'
+import GitHub  from '../assets/svg/Github.svg'
+
+
+import Redux from '../assets/svg/Redux.svg'
+import Next from '../assets/svg/Nextjs.svg'
+import { CenterEllipese, LineFive, LineFour, LineOne, LineSix, LineThree, LineTwo } from "../common/icon";
 
 const Myskills = () => {
   return (
-    <section className="bg-[#0B0B0B] relative" id="myskills">      
-      <div className="max-w-[1140px] mx-auto px-[16px]">
-        <div className="flex flex-col items-center">
-          <h2 className=" text-white lg:text-[42px] font-poppins text-[36px] font-semibold lg:leading-[52px]  leading-[130%]  text-center sm:pt-[100px] pt-[80px]">
-            My
-            <span className="text-[#6022EA]"> Skills</span>
-          </h2>
-          <h6 className="text-[#FEFEFE] font-inter max-w-[710px] text-center pt-[16px] caption-top ">
+    <section className="bg-[#11071F]" id="skill">            
+      <div className="container max-w-custom">
+        <div className="flex flex-col items-center pb-12">
+          <h2 className=" font-Preahvihear text-white text-[50px] font-semibold">My Skills</h2>
+          <h6 className=" font-Preahvihear text-white text-center max-w-[900px]">
             I am proficient in building dynamic user interfaces with React,
             ensuring seamless user experiences . On the backend, I have
             expertise in Node.js, Express, and MongoDB, enabling me to create
             robust and scalable APIs.
           </h6>
         </div>
-        <div className="flex flex-row flex-wrap mx-[-12px] pt-[40px] sm:pb-[100px] pb-[80px]">
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px] ">
-           <div className="flex flex-col items-center justify-center  rounded-[16px] min-h-[164px] p-[20px] h-full group hover:rotate-6 duration-300  bg-black border-[1px] border-[#3D3D3D]" >
-              <img src={Html} alt="html"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>              
-            </div>   
-          </div>
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px]">
-            <div className="flex items-center justify-center  rounded-[16px] min-h-[164px]  p-[20px] h-full group hover:rotate-6 duration-300 bg-black border-[1px] border-[#3D3D3D]" >
-              <img src={Css} alt="css"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>
-            </div>
-          </div>
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px] sm:pt-0 pt-[24px]">
-            <div className="flex items-center justify-center  rounded-[16px] min-h-[164px]  p-[20px] h-full group hover:rotate-6 duration-300 bg-black border-[1px] border-[#3D3D3D]" >
-              <img src={Js} alt="js"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>
-            </div>
-          </div>
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px] md:pt-0 pt-[24px] ">
-            <div className="flex items-center justify-center  rounded-[16px] min-h-[164px]  p-[20px] h-full group hover:rotate-6 duration-300 bg-black border-[1px] border-[#3D3D3D]" >
-              <img src={Bootstrap} alt="bootstrap"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>
-            </div>
-          </div>
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px] pt-[24px] lg:pt-0">
-            <div className="flex items-center justify-center  rounded-[16px] min-h-[164px]  p-[20px] h-full group hover:rotate-6 duration-300 bg-black border-[1px] border-[#3D3D3D]" >
-              <img src={Tailwindcss} alt="tailwindcss"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>
-            </div>
-          </div>
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px] pt-[24px] lg:pt-0">
-            <div className="flex items-center justify-center  rounded-[16px] min-h-[164px]  p-[20px] h-full group hover:rotate-6 duration-300 bg-black border-[1px] border-[#3D3D3D]" >
-              <img src={Nextjs} alt="nextjs"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>
-            </div>
-          </div>
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px] pt-[24px]">
-            <div className="flex items-center justify-center  rounded-[16px] min-h-[164px]  p-[20px] h-full group hover:rotate-6 duration-300 bg-black border-[1px] border-[#3D3D3D]" >
-              <img src={Mongodb} alt="mongodb"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>
-            </div>
-          </div>
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px] pt-[24px]">
-            <div className="flex items-center justify-center  rounded-[16px] min-h-[164px]  p-[20px] h-full w-full group hover:rotate-6 duration-300 bg-black border-[1px] border-[#3D3D3D]" >
-              <img src={Express} alt="express"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>
-            </div>
-          </div>
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px] pt-[24px]">
-            <div className="flex items-center justify-center rounded-[16px] min-h-[164px]  p-[20px] h-full group hover:rotate-6 duration-300 bg-black border-[1px] border-[#3D3D3D]" >
-              <img src={ReactIcon} alt="reacticon"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>
-            </div>
-          </div>
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px] pt-[24px]">
-            <div className="flex items-center justify-center  rounded-[16px] min-h-[164px]  p-[20px] h-full group hover:rotate-6 duration-300 bg-black border-[1px] border-[#3D3D3D]" >
-              <img src={Nodejs} alt="nodejs"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>
-            </div>
-          </div>
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px] pt-[24px]">
-            <div className="flex items-center justify-center rounded-[16px] min-h-[164px]  p-[20px] h-full group hover:rotate-6 duration-300 bg-black border-[1px] border-[#3D3D3D]" >
-              <img src={Git} alt="git"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>
-            </div>
-          </div>
-          <div className="lg:w-2/12 md:w-3/12 sm:w-4/12 w-6/12  px-[12px] pt-[24px]">
-            <div className="flex items-center justify-center  rounded-[16px] min-h-[164px]  p-[20px] h-full group hover:rotate-6 duration-300 bg-black border-[1px] border-[#3D3D3D] " >
-              <img src={Github} alt="github"  className='group-hover:scale-110 duration-300 ease-linear group-hover:rotate-5'/>
-            </div>
-          </div>
-     
-          
+        <div className="flex sm:gap-8 gap-6 justify-center max-sm:flex-wrap max-sm:hidden">
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Html} alt="html" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Css} alt="css" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={js} alt="js" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Bootstrap} alt="bootstrap" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Tailwindcssicon} alt="tailwindcss" /> </div></div>
+
         </div>
+        <div className="flex sm:gap-8 gap-6 justify-center max-sm:flex-wrap max-sm:pt-6  sm:pb-[300px] max-sm:hidden">
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[50%]   "><LineOne/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={MongoDb} alt="mongodb" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[50%]"><LineTwo/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Express} alt="express" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[72%] translate-x-[-50%] "> <LineThree/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={ReactIcon} alt="reacicon" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[-6%]  "> <LineFour/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Nodejs} alt="nodejs" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[-108%]  "> <LineFive/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Git} alt="git" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[-221%] "> <LineSix/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={GitHub} alt="github" /> </div></div>
+
+        </div>
+        <div className="sm:hidden flex gap-6 flex-wrap justify-center">
+        <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Html} alt="html" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Css} alt="css" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={js} alt="js" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Bootstrap} alt="bootstrap" /> </div></div>
+        
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Tailwindcssicon} alt="tailwindcss" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[50%]   "><LineOne/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={MongoDb} alt="mongodb" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[50%]"><LineTwo/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Express} alt="express" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[72%] translate-x-[-50%] "> <LineThree/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={ReactIcon} alt="reacticon" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[-6%]  "> <LineFour/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Nodejs} alt="nodejs" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[-108%]  "> <LineFive/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Git} alt="git" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group relative"> <div className=" absolute animate-pulse  max-sm:hidden top-[80px] left-[-221%] "> <LineSix/> </div><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={GitHub} alt="github" /> </div></div>
+        </div>
+
+
+
+      <div className=" flex justify-center sm:translate-y-[-100px] max-sm:my-[-50px]">
+        <CenterEllipese/>
+      </div>
+
+
+
+        {/* <div className="flex gap-8 justify-center  pt-7">
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Redux} alt="redux" /> </div></div>
+          <div className="bg-[#251C31] h-[80px] w-[80px] rounded-full flex justify-center items-center shadow-glow hover:shadow-neon duration-300 ease-in-out group"><div className=" group-hover:scale-105 duration-300 ease-linear"> <img src={Next} alt="next" /> </div></div>      
+        </div> */}
+       
+       
+       
       </div>
     </section>
   );
