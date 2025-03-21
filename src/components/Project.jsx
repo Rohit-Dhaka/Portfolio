@@ -46,7 +46,7 @@ const Project = () => {
     <section className="bg-[#11071F]" id="project">
       <div className="container max-w-custom">
         <div className="flex flex-col items-center pt-3 z-10 relative">
-          <h2 className=" font-Preahvihear text-white text-[50px] font-semibold">
+          <h2 className=" font-Preahvihear text-white text-[50px] font-semiboldsm:pt-24 pt-16 ">
             My Project
           </h2>
           <h6 className=" font-Preahvihear text-white text-center max-w-[900px] pt-4">

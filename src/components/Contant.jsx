@@ -52,7 +52,7 @@ const Contant = () => {
       </div>
       <div className="container max-w-custom ">
         <div className="flex flex-col items-center">
-          <h2 className="text-white font-Preahvihear  text-[50px] font-semibold pt-22">
+          <h2 className="text-white font-Preahvihear  text-[50px] font-semibold sm:pt-24 pt-16">
             Contact Us
           </h2>
           <h6 className="text-white font-Preahvihear text-center pb-[80px] ">
@@ -114,7 +114,7 @@ const Contant = () => {
                   name="to_name"
                   value={formData.to_name}
                   onChange={handleChange}
-                  className="bg-transparent  outline-none sm:py-[12px] py-2 focus:not-italic border-b-[1px] border-solid  w-full"
+                  className="bg-transparent  text-white outline-none sm:py-[12px] py-2 focus:not-italic border-b-[1px] border-solid  w-full"
                 />
                 <label className=" font-poppins text-[#8D8D8D] block sm:pt-[45px] pt-8">
                   Your Email:
@@ -124,7 +124,7 @@ const Contant = () => {
                   name="from_name"
                   value={formData.from_name}
                   onChange={handleChange}
-                  className="bg-transparent outline-none sm:py-[12px] py-2 focus:not-italic border-b-[1px] border-solid w-full sm:max-w-[400px]"
+                  className="bg-transparent text-white outline-none sm:py-[12px] py-2 focus:not-italic border-b-[1px] border-solid w-full sm:max-w-[400px]"
                 />
                 {error && <p className="text-red-500 text-sm pt-[10px]">{error}</p>}
                 <label className=" font-poppins text-[#8D8D8D] block sm:pt-[30px] pt-8">
@@ -135,7 +135,7 @@ const Contant = () => {
                   value={formData.message}
                   onChange={handleChange}
                   placeholder="Write your message.."
-                  className="bg-transparent text-[#8D8D8D] outline-none py-[12px] resize-none focus:not-italic border-b-[1px] border-solid w-full sm:max-w-[400px]"
+                  className="bg-transparent text-white outline-none py-[12px] resize-none focus:not-italic border-b-[1px] border-solid w-full sm:max-w-[400px]"
                 ></textarea>
                 <input
                   type="submit"
