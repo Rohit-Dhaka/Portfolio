@@ -1,16 +1,11 @@
 import React from "react";
 import { Creative, Ellipse, PeakPerform, ProjectShowcase, Responsive, SEO, UserExperience } from "../common/icon";
-
-
-
 const Myexpertise = () => {
   return (
     <section className="bg-[#11071F] relative overflow-hidden" id="expertise">
         <div className="absolute left-[50%] bottom-0  translate-x-[-50%]"> 
           <Ellipse/>
-        </div>
-      
-      
+      </div>           
       <div className="container max-w-custom">
         <div className="flex flex-col items-center">
           <h2 className=" font-Preahvihear text-white text-[42px]">
@@ -23,8 +18,7 @@ const Myexpertise = () => {
             interfaces..
           </h6>
         </div>
-        <div className="flex flex-row flex-wrap mx-[-12px] pt-12  pb-10">
-          
+        <div className="flex flex-row flex-wrap mx-[-12px] pt-12  pb-10">          
           <div className="md:w-6/12 w-full px-3 z-10">
             <div className="bg-[#4F228D] h-full rounded-2xl px-0 pt-1 hover:shadow-glow hover:bg-white duration-300  group">              
               <div className="h-full bg-[linear-gradient(120deg,#130428,#251043,#38126D,#261045,#190634)]  rounded-xl [14px] flex lg:flex-row md:flex-col sm:flex-row flex-col  items-center sm:gap-6 gap-4 sm:py-11 sm:px-[52px] py-8 px-6">
@@ -101,10 +95,7 @@ const Myexpertise = () => {
                 </div>                                            
               </div>
             </div>
-          </div>
-
-     
-                                  
+          </div>                                       
         </div>
       </div>
     </section>

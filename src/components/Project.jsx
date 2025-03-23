@@ -1,11 +1,9 @@
 import React from "react";
 import { ExternalLink, GithubLink, LiveLink, Screen } from "../common/icon";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import Solana from "../assets/images/solana-business.webp";
 import Digiency from "../assets/images/Digiency.webp";
 import Laslesvpn from "../assets/images/Laslesvpn.webp";
@@ -21,7 +19,6 @@ import Julian from "../assets/images/Julian.webp";
 import Hustlin from "../assets/images/Hustlin.webp";
 import Blandit from "../assets/images/Blandit.webp";
 import Maitre from "../assets/images/Maitre.webp";
-
 import Travel from "../assets/images/Travel.webp";
 import CVHawk from "../assets/images/CVHawk.webp";
 import Dashboard from "../assets/images/Dashboard.webp";
@@ -36,9 +33,7 @@ import Gxxx from "../assets/images/Gxxx.webp";
 import Ice from "../assets/images/Ice.webp";
 import Sclair from "../assets/images/Sclair.webp";
 import Marc from "../assets/images/Marc.webp";
-
-import Projectimages from "../assets/images/projects.png";
-
+import Projectimages from "../assets/images/projects.webp";
 import { Autoplay } from "swiper/modules";
 
 const Project = () => {
@@ -55,10 +50,9 @@ const Project = () => {
             handle both frontend and backend challenges.
           </h6>
         </div>
-
         <div className="flex flex-row flex-wrap mx-[-12px] justify-end relative pt-24 items-center ">
           <div className=" absolute sm:left-[-5%] top-[-30%] ">
-          <Screen className='w-full' />
+            <Screen className="w-full" />
           </div>
           <div className=" lg:absolute lg:start-0  md:w-6/12 w-full px-3 z-10">
             <img src={Projectimages} alt="Projectimages" className=" w-full" />
@@ -78,10 +72,8 @@ const Project = () => {
                 playlists of recommended tracks based on your existing playlists
                 and more.
               </div>
-
               <div className="sm:pt-8 pt-6 flex gap-3">
                 <div className=" w-[30px] h-[30px] rounded-md bg-white flex items-center justify-center relative group  text-white cursor-pointer">
-                  
                   <a href="">
                     <LiveLink />
                     <div className="absolute left-[50%] translate-x-[-50%] bottom-[-101%]  bg-white text-black rounded-sm font-poppins px-1 opacity-0 group-hover:opacity-100  text-nowrap duration-300 text-[12px]">
@@ -90,24 +82,19 @@ const Project = () => {
                   </a>
                 </div>
                 <div className=" w-[30px] h-[30px] rounded-md bg-white flex items-center justify-center relative group  text-white cursor-pointer">
-                  
                   <a href="">
-                    <GithubLink/>
+                    <GithubLink />
                     <div className="absolute left-[50%] translate-x-[-50%] bottom-[-101%]  bg-white text-black rounded-sm font-poppins px-1 opacity-0 group-hover:opacity-100  text-nowrap duration-300 text-[12px]">
                       GitHub
                     </div>
                   </a>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
-
-
-
         <div className="flex flex-row  mx-[-12px] flex-wrap-reverse  relative pt-24 items-center ">
-        <div className="lg:w-7/12 md:w-6/12 px-3 flex md:justify-start z-10 md:pt-0 pt-3 ">
+          <div className="lg:w-7/12 md:w-6/12 px-3 flex md:justify-start z-10 md:pt-0 pt-3 ">
             <div className="flex flex-col md:items-start">
               <h6 className=" font-poppins text-[#9857D3] font-semibold">
                 Featured Project
@@ -125,7 +112,6 @@ const Project = () => {
 
               <div className="sm:pt-8 pt-6 flex gap-3">
                 <div className=" w-[30px] h-[30px] rounded-md bg-white flex items-center justify-center relative group  text-white cursor-pointer">
-                  
                   <a href="">
                     <LiveLink />
                     <div className="absolute left-[50%] translate-x-[-50%] bottom-[-101%]  bg-white text-black rounded-sm font-poppins px-1 opacity-0 group-hover:opacity-100  text-nowrap duration-300 text-[12px]">
@@ -134,34 +120,26 @@ const Project = () => {
                   </a>
                 </div>
                 <div className=" w-[30px] h-[30px] rounded-md bg-white flex items-center justify-center relative group  text-white cursor-pointer">
-                  
                   <a href="">
-                    <GithubLink/>
+                    <GithubLink />
                     <div className="absolute left-[50%] translate-x-[-50%] bottom-[-101%]  bg-white text-black rounded-sm font-poppins px-1 opacity-0 group-hover:opacity-100  text-nowrap duration-300 text-[12px]">
                       GitHub
                     </div>
                   </a>
                 </div>
-                
               </div>
             </div>
           </div>
           <div className=" absolute right-0 top-[-30%] ">
-            <Screen className='w-full' />
+            <Screen className="w-full" />
           </div>
           <div className=" lg:absolute lg:end-0  md:w-6/12 w-full px-3 z-0">
             <img src={Projectimages} alt="Projectimages" className=" w-full" />
           </div>
-         
         </div>
-
-
-
-
-
         <div className="flex flex-row flex-wrap mx-[-12px] justify-end relative pt-24 items-center ">
           <div className=" absolute sm:left-[-5%] top-[-30%] ">
-          <Screen className='w-full' />
+            <Screen className="w-full" />
           </div>
           <div className=" lg:absolute lg:start-0  md:w-6/12 w-full px-3 z-10">
             <img src={Projectimages} alt="Projectimages" className=" w-full" />
@@ -184,7 +162,6 @@ const Project = () => {
 
               <div className="sm:pt-8 pt-6 flex gap-3">
                 <div className=" w-[30px] h-[30px] rounded-md bg-white flex items-center justify-center relative group  text-white cursor-pointer">
-                  
                   <a href="">
                     <LiveLink />
                     <div className="absolute left-[50%] translate-x-[-50%] bottom-[-101%]  bg-white text-black rounded-sm font-poppins px-1 opacity-0 group-hover:opacity-100  text-nowrap duration-300 text-[12px]">
@@ -193,20 +170,17 @@ const Project = () => {
                   </a>
                 </div>
                 <div className=" w-[30px] h-[30px] rounded-md bg-white flex items-center justify-center relative group  text-white cursor-pointer">
-                  
                   <a href="">
-                    <GithubLink/>
+                    <GithubLink />
                     <div className="absolute left-[50%] translate-x-[-50%] bottom-[-101%]  bg-white text-black rounded-sm font-poppins px-1 opacity-0 group-hover:opacity-100  text-nowrap duration-300 text-[12px]">
                       GitHub
                     </div>
                   </a>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
-
         <div className="flex flex-col items-center  pt-32">
           <h2 className=" font-Preahvihear text-center text-white font-semibold text-[50px] ">
             UI Design Gallery
@@ -882,3 +856,7 @@ const Project = () => {
 };
 
 export default Project;
+
+
+
+

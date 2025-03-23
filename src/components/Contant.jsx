@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Emailicon, Location, Phoneicon } from "../common/icon";
-import Illustration from '../assets/images/Illustration.png'
+import Illustration from '../assets/images/Illustration.webp'
 
 const Contant = () => {
   const form = useRef();
@@ -46,7 +46,7 @@ const Contant = () => {
   };
 
   return (
-    <section className=" bg-[#11071F]  relative ">
+    <section className=" bg-[#11071F]  relative " id="contact">
       <div className=" absolute  sm:bottom-[-10%] sm:right-0 bottom-0 ">
         <img src={Illustration} alt="Illustration" />
       </div>
