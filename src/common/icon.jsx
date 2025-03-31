@@ -1434,43 +1434,11 @@ export const DownloadIcon = () => {
 
 export const Wating = () => {
   return (
-    <svg
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M12 3C16.97 3 21 7.03 21 12C21 16.97 16.97 21 12 21"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="2 4"
-      />
-      <path
-        d="M12 21C7.03 21 3 16.97 3 12C3 7.03 7.03 3 12 3"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M12 8V15.5"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M15.5 12L12 15.5L8.5 12"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
+    <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" d="M11 3.5C9.01088 3.5 7.10322 4.29018 5.6967 5.6967C4.29018 7.10322 3.5 9.01088 3.5 11C3.5 12.9891 4.29018 14.8968 5.6967 16.3033C7.10322 17.7098 9.01088 18.5 11 18.5C12.9891 18.5 14.8968 17.7098 16.3033 16.3033C17.7098 14.8968 18.5 12.9891 18.5 11C18.5 9.01088 17.7098 7.10322 16.3033 5.6967C14.8968 4.29018 12.9891 3.5 11 3.5ZM0.5 11C0.5 5.201 5.201 0.5 11 0.5C16.799 0.5 21.5 5.201 21.5 11C21.5 16.799 16.799 21.5 11 21.5C5.201 21.5 0.5 16.799 0.5 11Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.9998 3.5C9.06615 3.49586 7.20647 4.24267 5.81276 5.583C5.52404 5.84995 5.14203 5.99286 4.74899 5.98094C4.35594 5.96903 3.98329 5.80325 3.71126 5.51929C3.43924 5.23534 3.2896 4.85592 3.29455 4.46273C3.29951 4.06953 3.45867 3.694 3.73776 3.417C5.6898 1.54163 8.29284 0.496041 10.9998 0.499996C11.3976 0.499996 11.7791 0.658031 12.0604 0.939336C12.3417 1.22064 12.4998 1.60217 12.4998 2C12.4998 2.39782 12.3417 2.77935 12.0604 3.06066C11.7791 3.34196 11.3976 3.5 10.9998 3.5Z" fill="white"/>
+</svg>
+
   );
 };
 

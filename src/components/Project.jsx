@@ -41,7 +41,7 @@ const Project = () => {
     <section className="bg-[#11071F]" id="project">
       <div className="container max-w-custom">
         <div className="flex flex-col items-center pt-3 z-10 relative">
-          <h2 className=" font-Preahvihear text-white text-[50px] font-semiboldsm:pt-24 pt-16 ">
+          <h2 className="font-Preahvihear text-white text-[50px] font-semiboldsm:pt-24 pt-16 ">
             My Project
           </h2>
           <h6 className=" font-Preahvihear text-white text-center max-w-[900px] pt-4">
@@ -59,7 +59,7 @@ const Project = () => {
           </div>
           <div className="lg:w-7/12 md:w-6/12 px-3 flex md:justify-end z-10 md:pt-0 pt-3">
             <div className="flex flex-col md:items-end">
-              <h6 className=" font-poppins text-[#9857D3] font-semibold">
+              <h6 className=" font-poppins text-[#D88AFF] font-semibold">
                 Featured Project
               </h6>
               <h4 className=" font-poppins text-white text-[34px] font-semibold sm:pb-7 pb-4">
@@ -96,7 +96,7 @@ const Project = () => {
         <div className="flex flex-row  mx-[-12px] flex-wrap-reverse  relative pt-24 items-center ">
           <div className="lg:w-7/12 md:w-6/12 px-3 flex md:justify-start z-10 md:pt-0 pt-3 ">
             <div className="flex flex-col md:items-start">
-              <h6 className=" font-poppins text-[#9857D3] font-semibold">
+              <h6 className=" font-poppins text-[#D88AFF] font-semibold">
                 Featured Project
               </h6>
               <h4 className=" font-poppins text-white text-[34px] font-semibold sm:pb-7 pb-4">
@@ -146,7 +146,7 @@ const Project = () => {
           </div>
           <div className="lg:w-7/12 md:w-6/12 px-3 flex md:justify-end z-10 md:pt-0 pt-3">
             <div className="flex flex-col md:items-end">
-              <h6 className=" font-poppins text-[#9857D3] font-semibold">
+              <h6 className=" font-poppins text-[#D88AFF] font-semibold">
                 Featured Project
               </h6>
               <h4 className=" font-poppins text-white text-[34px] font-semibold sm:pb-7 pb-4">

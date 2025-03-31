@@ -87,7 +87,10 @@ const Hero = () => {
             <div className="absol ute right-0 top-[40px] text-white text-5xl transition-all duration-300">
               {status === "idle" && <DownloadIcon />}
               {status === "downloading" && (
-                <Wating className="text-blue-500  rotate-12 duration-500" />
+                <div className=" animate-spin">
+
+                <Wating  />
+                </div>
               )}
               {status === "done" && <Done className="text-white" />}
             </div>

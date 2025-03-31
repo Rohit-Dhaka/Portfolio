@@ -32,13 +32,10 @@ const Header = () => {
       </div>
 
       <div className="pt-[20px]">
-        <div className="flex justify-between py-1 sm:px-8 px-4 items-center border-[1px] border-[#272A3C] rounded-lg relative tracking-widest transition-all duration-500 ease-in-out lg:overflow-hidden">
-          {/* Logo */}
+        <div className="flex justify-between py-1 sm:px-8 px-4 items-center border-[1px] border-[#272A3C] rounded-lg relative tracking-widest transition-all duration-500 ease-in-out lg:overflow-hidden">          
           <a href="/" className="">
             <Logo />
-          </a>
-
-          {/* Navigation Links */}
+          </a>          
           <div
             className={`flex gap-[45px] items-center max-md:absolute max-md:w-full max-md:h-screen max-md:top-0 
                         max-md:bg-[#11071F] max-md:backdrop-blur-xl max-md:items-center z-10 max-md:justify-center 
@@ -53,19 +50,24 @@ const Header = () => {
                                after:absolute after:bottom-[-1px] after:left-1/2 after:translate-x-[-50%] after:h-[2px] 
                                after:w-0 after:duration-300 after:bg-[#A362FF] after:hover:left-0 
                                after:hover:translate-x-0 after:hover:w-full after:rounded-[10px] font-poppins"
-                    onClick={handleNavLinkClick} // Close menu on click
+                    onClick={handleNavLinkClick} 
                   >
                     {item}
                   </a>
                 </li>
               ))}
             </ul>
-            <button className="text-white rounded-[32px] border-[1px] border-white py-[16px] px-[32px] max-md:block hidden font-poppins">
-              Contact me
-            </button>
+            <a 
+  href="#contact" 
+  className="text-white rounded-[32px] border-[1px] font-poppins border-white py-[16px] px-[32px] max-md:block hidden 
+  transition-all duration-300 ease-in-out 
+  hover:bg-white hover:text-black hover:shadow-lg hover:scale-105"
+  onClick={handleNavLinkClick}
+>
+  Contact me
+</a>
           </div>
-
-          {/* Mobile Menu Icon */}
+          
           <div
             className="menuicon z-10 cursor-pointer max-md:block hidden"
             onClick={() => setShow(!show)}
