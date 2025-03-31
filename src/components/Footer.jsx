@@ -6,11 +6,11 @@ const Footer = () => {
         <footer className=' bg-gradient-to-t  to-[#11071F] from-black overflow-hidden  bg-[#11071F] '>                       
             <div className="container max-w-custom  ">                                   
             <div className="flex justify-center gap-4 pt-16 pb-10">
-            <a href="" className='w-8 h-8 bg-white   rounded-full hover:shadow-glow duration-300 ease-linear group  flex items-center justify-center'> <div className=" group-hover:scale-110 duration-300  ease-linear"> <SocalInsagram/></div></a>
-            <a href="" className='w-8 h-8 bg-white   rounded-full hover:shadow-glow duration-300 ease-linear group  flex items-center justify-center'> <div className=" group-hover:scale-110 duration-300  ease-linear"> <SocalDescord/> </div></a>
-            <a href="" className='w-8 h-8 bg-white   rounded-full hover:shadow-glow duration-300 ease-linear group  flex items-center justify-center'> <div className=" group-hover:scale-110 duration-300  ease-linear"> <SocalGithub/> </div></a>
-            <a href="" className='w-8 h-8 bg-white   rounded-full hover:shadow-glow duration-300 ease-linear group  flex items-center justify-center'> <div className=" group-hover:scale-110 duration-300  ease-linear"> <SocalLindin/> </div></a>
-            <a href="" className='w-8 h-8 bg-white   rounded-full hover:shadow-glow duration-300 ease-linear group  flex items-center justify-center'> <div className=" group-hover:scale-110 duration-300  ease-linear"> <SocalTwiter/> </div></a>
+            <a href="" target='_blank' className='w-8 h-8 bg-white   rounded-full hover:shadow-glow duration-300 ease-linear group  flex items-center justify-center'> <div className=" group-hover:scale-110 duration-300  ease-linear"> <SocalInsagram/></div></a>
+            <a href="https://discord.com/channels/@me" target='_blank' className='w-8 h-8 bg-white   rounded-full hover:shadow-glow duration-300 ease-linear group  flex items-center justify-center'> <div className=" group-hover:scale-110 duration-300  ease-linear"> <SocalDescord/> </div></a>
+            <a href="https://github.com/Rohit-Dhaka" target='_blank' className='w-8 h-8 bg-white   rounded-full hover:shadow-glow duration-300 ease-linear group  flex items-center justify-center'> <div className=" group-hover:scale-110 duration-300  ease-linear"> <SocalGithub/> </div></a>
+            <a href="https://www.linkedin.com/in/rohit-dhaka-17ba9a253/" target='_blank' className='w-8 h-8 bg-white   rounded-full hover:shadow-glow duration-300 ease-linear group  flex items-center justify-center'> <div className=" group-hover:scale-110 duration-300  ease-linear"> <SocalLindin/> </div></a>
+            <a href="https://x.com/RohitDh02392225" target='_blank' className='w-8 h-8 bg-white   rounded-full hover:shadow-glow duration-300 ease-linear group  flex items-center justify-center'> <div className=" group-hover:scale-110 duration-300  ease-linear"> <SocalTwiter/> </div></a>
             </div>                            
                        <div className="flex justify-center pb-16">
                        <ul className='flex sm:gap-[18px] gap-[12px] flex-wrap justify-center'>                            
