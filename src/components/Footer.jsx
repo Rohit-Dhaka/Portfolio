@@ -1,9 +1,41 @@
+import { useState, useEffect } from "react";
+import { ArrowUpCircle } from "lucide-react";
 import React from 'react'
 import { SocalDescord, SocalGithub, SocalInsagram, SocalLindin, SocalTwiter } from '../common/icon';
 const Footer = () => {
     const cureentyear = new Date().getFullYear();
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+      const toggleVisibility = () => {
+        if (window.scrollY > 300) {
+          setIsVisible(true);
+        } else {
+          setIsVisible(false);
+        }
+        
+      };
+  
+      window.addEventListener("scroll", toggleVisibility);
+      return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
+  
+    const scrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
+
     return (
-        <footer className=' bg-gradient-to-t  to-[#11071F] from-black overflow-hidden  bg-[#11071F] '>                       
+        <footer className=' bg-gradient-to-t  to-[#11071F] from-black overflow-hidden  bg-[#11071F] '>     
+         <button
+      onClick={scrollToTop}
+      className={`fixed sm:bottom-6 sm:right-6 right-2 bottom-2 sm:p-3 p-2 rounded-full bg-[linear-gradient(120deg,#130428,#251043,#38126D,#261045,#190634)]  text-white  duration-300 ease-linear hover:shadow-glow z-20  ${
+        isVisible ? "opacity-100" : "opacity-0"
+      }`}
+    >
+      <ArrowUpCircle size={30} className=" animate-pulse" />
+    </button>                  
             <div className="container max-w-custom  ">                                   
             <div className="flex justify-center gap-4 pt-16 pb-10">
             <a href="" target='_blank' className='w-8 h-8 bg-white   rounded-full hover:shadow-glow duration-300 ease-linear group  flex items-center justify-center'> <div className=" group-hover:scale-110 duration-300  ease-linear"> <SocalInsagram/></div></a>
